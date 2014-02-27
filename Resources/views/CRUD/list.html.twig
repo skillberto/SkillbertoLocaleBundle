@@ -27,9 +27,9 @@ file that was distributed with this source code.
              {% block table_header %}
                  <thead>
                  <tr class="sonata-ba-list-field-header">
-                     <th class="sonata-ba-list-field-header sonata-ba-list-field-header-select">{{'locale_locale'|trans({}, 'SkillbertoLocaleBundle') }}</th>
-                     <th class="sonata-ba-list-field-header sonata-ba-list-field-header-select">{{'locale_locales'|trans({}, 'SkillbertoLocaleBundle') }}</th>
                      <th class="sonata-ba-list-field-header sonata-ba-list-field-header-select">{{'existed_locales'|trans({}, 'SkillbertoLocaleBundle') }}</th>
+                     <th class="sonata-ba-list-field-header sonata-ba-list-field-header-select">{{'locale_locales'|trans({}, 'SkillbertoLocaleBundle') }}</th>
+                     <th class="sonata-ba-list-field-header sonata-ba-list-field-header-select">{{'locale_locale'|trans({}, 'SkillbertoLocaleBundle') }}</th>
                  </tr>
                  </thead>
              {% endblock %}
@@ -49,6 +49,8 @@ file that was distributed with this source code.
                         <td class="sonata-ba-list-field sonata-ba-list-field-boolean">
                             {% if loc == locale %}
                                 <span class="label label-success">yes</span>
+                            {% else %}
+                                <span class="label label-important">no</span>
                             {% endif %}
                         </td>
                     </tr>
