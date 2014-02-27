@@ -1,0 +1,6 @@
+services:
+    skillberto.system.admin.locale:
+        class: Skillberto\LocaleBundle\Admin\LocaleAdmin
+        tags:
+          - { name: sonata.admin, manager_type: orm, group: System, label: Locale }
+        arguments: [null, Skillberto\LocaleBundle\Entity\Locale, SkillbertoLocaleBundle:LocaleAdmin, "@service_container"]

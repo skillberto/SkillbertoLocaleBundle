@@ -1,0 +1,31 @@
+{
+    "name":         "skillberto/locale-bundle",
+    "description":  "This bundle generate menu with from admin with KnpMenuBundle, SonataAdminBundle, and optional SkillbertoAdminBundle",
+    "keywords":     ["menu","doctrine-menu","admin-menu"],
+    "type":         "symfony-bundle",
+    "license":      "MIT",
+    "authors":      [
+        {
+            "name":     "Heiszler Norbert",
+            "email":    "skillbertoo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/symfony": ">=2.1",
+        "sonata-project/admin-bundle": "2.2.*@dev",
+    },
+    "suggest": {
+		"jms/i18n-routing-bundle": "dev-master",
+        "skillberto/admin-bundle": "dev-master"
+    },
+    "autoload":     {
+        "psr-0": { "Skillberto\\LocaleBundle": "" }
+    },
+    "target-dir": "Skillberto/LocaleBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.2.x-dev"
+        }
+    }
+}

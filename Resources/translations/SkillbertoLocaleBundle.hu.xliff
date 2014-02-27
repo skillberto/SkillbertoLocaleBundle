@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="" >
+        <body>
+            <trans-unit id="locale_locale">
+                <source>locale_locale</source>
+                <target>Aktív nyelv</target>
+            </trans-unit>
+            <trans-unit id="locale_locales">
+                <source>locale_locales</source>
+                <target>Elérhető nyelvek</target>
+            </trans-unit>
+            <trans-unit id="existed_locales">
+                <source>existed_locales</source>
+                <target>Létező nyelvek</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
