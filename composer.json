@@ -13,11 +13,10 @@
     "require": {
         "php": ">=5.3.3",
         "symfony/symfony": ">=2.1",
-        "sonata-project/admin-bundle": "2.2.*@dev",
+        "skillberto/admin-bundle": "~2.2"
     },
     "suggest": {
-		"jms/i18n-routing-bundle": "dev-master",
-        "skillberto/admin-bundle": "dev-master"
+		"jms/i18n-routing-bundle": "1.1.x-dev",
     },
     "autoload":     {
         "psr-0": { "Skillberto\\LocaleBundle": "" }
